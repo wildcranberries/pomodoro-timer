@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+
+body {
+  background-color: hsl(281, 44%, 46%);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5% 5% 5% 5%;
+}
+
+.title {
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-size: 35px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.clock {
+  margin-top: 40px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 200px;
+  width: 200px;
+  background-color: hsl(281, 46%, 30%);
+  border-radius: 50%;
+  font-family: "Open Sans", sans-serif;
+  box-shadow: hsl(300, 69%, 71%) 0px 0px 15px;
+}
+
+.finish {
+  padding-top: 5px;
+  color: white;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: "Open Sans", sans-serif;
+}
+
+button {
+  margin-top: 15px;
+  font-family: "Open Sans", sans-serif;
+  fill: white;
+  color: hsl(257, 40%, 49%);
+  border-radius: 20px;
+  font-size: 15px;
+  text-align: center;
+  transition-duration: 0.1s;
+  padding: 8px 50px 10px 50px;
+  box-shadow: 1px 1px 5px 2px hsl(257, 40%, 40%);
+}
+button:hover {
+  background-color: hsl(300, 69%, 71%);
+  box-shadow: 2px 2px 3px 2px #2d2d2d;
+  color: white;
+}

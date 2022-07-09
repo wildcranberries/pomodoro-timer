@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pomodoro</title>
+    <script
+      src="https://kit.fontawesome.com/a0fd6388c9.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="title">Pomodoro Timer</div>
+      <br />
+
+      <div class="clock">
+        <div class="min">
+          <h4 id="minutes">25</h4>
+        </div>
+        <div class="connect">
+          <h4>:</h4>
+        </div>
+        <div class="sec">
+          <h4 id="seconds">00</h4>
+        </div>
+      </div>
+
+      <!-- Finished -->
+      <div class="finish">
+        <h3 id="done"></h3>
+      </div>
+
+      <div class="buttons">
+        <button class="play" onclick="start_timer()">Start</button>
+      </div>
+    </div>
+
+    <script src="srcipt.js"></script>
+  </body>
+</html>
