@@ -3,10 +3,7 @@ var sminutes = 25;
 
 var bell = new Audio("bell.mp3");
 
-function template() {
-  document.getElementById("minutes").innerHTML = sminutes;
-  document.getElementById("seconds").innerHTML = sseconds;
-}
+
 
 function start_timer() {
   sminutes = 24;
@@ -38,7 +35,7 @@ function start_timer() {
         // Add the message to the html
         document.getElementById("done").innerHTML = "Session Completed!!";
 
-        document.getElementById("done").classList.add("show_message");
+        
 
         // end of session
         bell.play();
